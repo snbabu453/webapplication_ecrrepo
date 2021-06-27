@@ -15,7 +15,7 @@ pipeline {
 
             // Get some code from a GitHub repository
 
-            git 'https://github.com/jmstechhome6/web_login_automation.git'
+            git 'https://github.com/snbabu453/webapplication_ecrrepo.git'
          }
          }
          stage('Image Build'){
