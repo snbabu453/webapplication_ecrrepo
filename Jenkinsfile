@@ -7,7 +7,7 @@ pipeline {
         IMAGE = "$PROJECT:$VERSION"
         ECRURL = 'https://291427156641.dkr.ecr.us-east-1.amazonaws.com/nodeapp30'
        // awscredentails : Id of aws credentails in jenkins manage user credentails
-        ECRCRED = 'ecr:us-east-1:awscredentials'
+        ECRCRED = 'ecr:us-east-1:awscredentails'
     }   
     stages {
       stage('GetSCM') {
